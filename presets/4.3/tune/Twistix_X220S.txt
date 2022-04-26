@@ -1,0 +1,29 @@
+#$ TITLE: Twistix - X220S
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: TUNE
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: 
+#$ AUTHOR: Twistix (Julien Armengaud)
+
+#$ PARSER: MARKED
+
+#$ DESCRIPTION: PID du X220S
+
+#$ INCLUDE: presets/4.3/tune/defaults.txt
+#$ INCLUDE: presets/4.3/filters/defaults.txt
+
+# -- PID Settings --
+set p_pitch = 55
+set i_pitch = 60
+set d_pitch = 20
+set i_roll = 65
+set d_roll = 20
+set p_yaw = 80
+set i_yaw = 70
+set d_min_roll = 20
+set d_min_pitch = 20
+set dyn_idle_min_rpm = 20
+set simplified_pids_mode = OFF
+
+
+
