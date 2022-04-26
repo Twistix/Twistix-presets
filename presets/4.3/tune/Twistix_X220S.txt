@@ -10,7 +10,6 @@
 #$ DESCRIPTION: PID du X220S
 
 #$ INCLUDE: presets/4.3/tune/defaults.txt
-#$ INCLUDE: presets/4.3/filters/defaults.txt
 
 # -- PID Settings --
 set p_pitch = 55
